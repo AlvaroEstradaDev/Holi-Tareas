@@ -1,0 +1,5 @@
+meal_input = float(input('Enter the meal price: '))
+percent_input = float(input('Enter the tip percentage: '))
+tip_amount = meal_input * (percent_input/100)
+print('Tip amount: ',str(tip_amount))
+print('Total: ',str(meal_input+ tip_amount))
